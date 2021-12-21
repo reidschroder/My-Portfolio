@@ -41,13 +41,13 @@ header {
     }
 
         header a {
-            color: blue;
+            color: black;
             font-family: 'Open Sans', sans-serif;
         }
 
             header nav {
                 justify-content: center;
-                border: 2px solid;
+                
             }
 
                 header nav ul {
@@ -55,20 +55,20 @@ header {
                     flex-wrap: wrap;
                     justify-content: space-between;
                     list-style: none;
-                    border: 2px solid;
+                    
                 }
 
                     header nav ul a {
                         padding: 10px;
                         font-size: 1.5vw;
                         font-weight: bolder;
-                        border: 2px solid;
+                        
                     }
                     header nav ul a:hover {
                         height: 100%;
                         width: 135%;
-                        transition-duration: 0.6s;
-                        color: red;
+                        transition-duration: 1.3s;
+                        color: white;
                     }
 
 
