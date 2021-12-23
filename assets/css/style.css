@@ -185,7 +185,7 @@ footer {
         justify-content: center;
         position: relative;
         text-align: center;
-        height: 250px;
+        height: 180px;
     }
    
     header h1 {
@@ -200,15 +200,16 @@ footer {
         flex-wrap: wrap;
         flex-direction: column;
         padding-bottom: 45px;
-        /*border*/
     }
     
     header nav ul li a {
-        font-size: 40px;
+        font-size: 30px;
         justify-content: center;
         flex-wrap: wrap;
         flex-direction: column;
         flex: inherit;
+        font-weight: lighter;
+        text-decoration-thickness: 2.5px;
         
     }
 
