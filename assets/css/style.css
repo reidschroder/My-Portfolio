@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&display=swap');
 
 :root {
-	--primary-color: #3a4052;
+	--primary-color: #464b5a;
 }
 
 * {
@@ -42,7 +42,7 @@ header {
 
         header a {
             color: black;
-            font-family: 'Open Sans', sans-serif;
+            
         }
 
             header nav {
@@ -74,19 +74,11 @@ header {
                     }
 
 
-a {
-	text-decoration: none;
-	color: var(--primary-color);
-}
 
-h1 {
-	font-weight: 300;
-	font-size: 60px;
-	line-height: 1.2;
-	margin-bottom: 15px;
-}
 
-.showcase {
+
+
+.hero {
     position: relative;
 	height: 100vh;
 	display: flex;
@@ -130,29 +122,32 @@ h1 {
 }
 
 .content {
-	z-index: 10;
+	z-index: 1;
 }
 
-#about {
+.content h1 {
+	font-weight: 300;
+	font-size: 340%;
+	line-height: 1.2;
+	margin-bottom: 15px;
+}
+
+#about-me {
 	padding: 40px;
 	text-align: center;
 }
 
-#about p {
-	font-size: 1.2rem;
+#about-me h1 {
+    font-size: 60px;
+    font-weight: lighter;
+}
+
+#about-me p {
+	font-size: 1.3rem;
 	max-width: 600px;
 	margin: auto;
 }
 
-#about h2 {
-	margin: 30px 0;
-	color: black;
-}
-
-.social a {
-	margin: 0 5px;
-    color: black
-}
 
 footer {
     align-items: center;
@@ -164,6 +159,11 @@ footer {
     justify-content: space-between;
     text-align: center;
 
+}
+
+.social a {
+	justify-content: space-between;
+    color: black
 }
 
 .social a:hover {
