@@ -169,12 +169,10 @@ header {
         font-size: 60px;
         font-weight: lighter;
 }
+    #work h3 {
+        font-weight: normal;
+    }
 
-        #work p {
-	        font-size: 1.3rem;
-	        max-width: 600px;
-	        margin: auto;
-}
 
             #work img {
                 flex-wrap: wrap;
@@ -195,11 +193,14 @@ header {
         font-weight: lighter;
 }
 
-        #contact-me p {
-	        font-size: 1.3rem;
-	        max-width: 600px;
-	        margin: auto;
-}
+        #contact-me h2 {
+            font-weight:normal;
+        }
+
+            #contact-me h4 {
+                font-weight: normal;
+            }
+
 
 .form-control {
     width:300px;
@@ -213,7 +214,7 @@ input {
     height: 45px;
 
 }
-form .submit {
+form .button {
     background: #737d9b;
     border-color: transparent;
     font-size: 20px;
@@ -225,26 +226,26 @@ form .submit {
 }
 
 
-form .submit:hover {
+form .button:hover {
     background-color: white;
     transition-duration: 1.3s;
 }
 
 
 #resume {
-	padding: 40px;
 	text-align: center;
+    justify-content: center;
+    
 }
-
     #resume h1 {
         font-size: 60px;
         font-weight: lighter;
 }
-
-        #resume p {
-	        font-size: 1.3rem;
-	        max-width: 600px;
-	        margin: auto;
+        .resume-photo {
+           width: 300px;
+           justify-content: center;
+           align-items: center;
+           
 }
 
 
@@ -320,6 +321,17 @@ footer {
         position: relative;
     }
 
+    #resume img {
+        height:auto;
+        max-width: 100%;
+        
+}
+.resume-photo {
+    max-width: 50%;
+    max-height: auto;
+    align-items: center;
+    
+}
 
     
     footer h2 {
