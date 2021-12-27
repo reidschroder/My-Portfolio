@@ -112,7 +112,7 @@ header {
 
 .video-container:after {
 	content: '';
-	z-index: 1;
+	z-index: 9999;
 	height: 100%;
 	width: 100%;
 	top: 0;
@@ -133,20 +133,120 @@ header {
 }
 
 #about-me {
+	padding: 20px;
+	text-align: center;
+}
+
+#about-me img {
+    border-radius: 700px;
+    justify-content: center;
+}
+
+    #about-me h1 {
+        font-size: 60px;
+        font-weight: lighter;
+    }
+
+        #about-me p {
+            font-size: 1.3rem;
+            max-width: 600px;
+            margin: auto;
+        }
+
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+           
+        }
+#work {
+	padding: 20px;
+	text-align: center;
+   
+}
+
+    #work h1 {
+        font-size: 60px;
+        font-weight: lighter;
+}
+
+        #work p {
+	        font-size: 1.3rem;
+	        max-width: 600px;
+	        margin: auto;
+}
+
+            #work img {
+                flex-wrap: wrap;
+                width: 300px;
+                height: 150px;
+                border-radius: 10px;
+            }
+
+#contact-me {
+	padding: 20px;
+	text-align: center;
+    border-left: 2px solid;
+    border-right: 2px solid;
+}
+
+    #contact-me h1 {
+        font-size: 60px;
+        font-weight: lighter;
+}
+
+        #contact-me p {
+	        font-size: 1.3rem;
+	        max-width: 600px;
+	        margin: auto;
+}
+
+.form-control {
+    width:300px;
+    background: transparent;
+    border: none;
+    outline:none;
+    border-bottom: 1px solid;
+}
+
+input {
+    height: 45px;
+
+}
+form .submit {
+    background: #737d9b;
+    border-color: transparent;
+    font-size: 20px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    height: 50px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+
+
+form .submit:hover {
+    background-color: white;
+    transition-duration: 1.3s;
+}
+
+
+#resume {
 	padding: 40px;
 	text-align: center;
 }
 
-#about-me h1 {
-    font-size: 60px;
-    font-weight: lighter;
+    #resume h1 {
+        font-size: 60px;
+        font-weight: lighter;
 }
 
-#about-me p {
-	font-size: 1.3rem;
-	max-width: 600px;
-	margin: auto;
+        #resume p {
+	        font-size: 1.3rem;
+	        max-width: 600px;
+	        margin: auto;
 }
+
 
 
 footer {
@@ -213,6 +313,15 @@ footer {
         
     }
 
+    .container {
+        flex: 0 70%;
+        justify-content: center;
+        flex-direction: column;
+        position: relative;
+    }
+
+
+    
     footer h2 {
         font-size: 20px;
     }
@@ -222,4 +331,10 @@ footer {
         width: 100%;
     }
 
+}
+
+@media screen and (max-width: 525px) {
+    #contact-me h1 {
+      font-size: 55px;
+    }
 }
