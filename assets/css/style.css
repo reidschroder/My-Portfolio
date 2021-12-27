@@ -345,8 +345,23 @@ footer {
 
 }
 
-@media screen and (max-width: 525px) {
+@media screen and (max-width: 800px) {
     #contact-me h1 {
       font-size: 55px;
     }
+
+
+#contact-me {
+    border-bottom: 1px solid;
+    border-left: none;
+    border-right: none;
+}
+
+
+#work {
+    border-bottom: 1px solid;
+}
+#about-me {
+    border-bottom: 1px solid;
+}
 }
