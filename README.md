@@ -1,8 +1,7 @@
 # My-Portfolio
 
 ## Purpose
-A website for the Horiseon company. Their goals include: increasing your brand awareness and lead generation. Minimizing the work done on your end and maximizing your visibility to the public.
-
+My portfolio page that shows off who I am and how to get in contact with me.
 ## Built With
 * HTML
 * CSS
